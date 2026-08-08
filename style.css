@@ -1,0 +1,220 @@
+
+        body {
+            background-color: #111111;
+            color: white;
+        }
+
+        h1 {
+            font-size: 40px;
+            font-family: Arial, sans-serif;
+        }
+
+        header {
+            text-align: center;
+            margin-top: 100px;
+        }
+
+        p {
+            color: #bbbbbb;
+            font-size: 18px;
+        }
+
+        input {
+            width: 500px;
+            padding: 15px;
+            margin-top: 25px;
+            border-radius: 10px;
+            border: none;
+            font-size: 18px;
+        }
+
+    
+
+        #yanMenu {
+    position: fixed;
+    top: 0;
+    left: -280px;
+    width: 260px;
+    height: 100%;
+    background-color: #1b1b1b;
+    padding: 25px;
+    border-right: 1px solid #333;
+    transition: left 0.35s ease;
+    box-sizing: border-box;
+}
+
+#yanMenu p {
+    color: white;
+    margin: 20px 0;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.menu {
+    position: absolute;
+    top: 25px;
+    left: 25px;
+    font-size: 30px;
+    cursor: pointer;
+    z-index: 1001;
+}
+
+.kapat {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    font-size: 30px;
+    cursor: pointer;
+    color: white;
+}
+
+.logoMenu {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.logoMenu h2 {
+    margin: 0;
+    color: white;
+    font-size: 28px;
+    font-family: Arial, sans-serif;
+}
+
+.logoIcon {
+    font-size: 34px;
+}
+
+.kategoriler {
+    width: 90%;
+    max-width: 1100px;
+    margin: 80px auto;
+}
+
+.kategoriler h2 {
+    text-align: center;
+    font-size: 32px;
+    margin-bottom: 40px;
+}
+
+.kartlar {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+}
+
+.kart {
+    background-color: #1b1b1b;
+    border-radius: 15px;
+    padding: 35px;
+    text-align: center;
+    cursor: pointer;
+    transition: 0.3s;
+    display: block;
+text-decoration: none;
+color: white;
+
+}
+
+.kart:hover {
+    transform: translateY(-8px);
+    background-color: #252525;
+}
+
+.ikon {
+    font-size: 50px;
+    margin-bottom: 15px;
+}
+
+.kart h3 {
+    margin: 0;
+    font-size: 22px;
+}
+
+.kart {
+    text-decoration: none;
+    color: white;
+}
+
+.kart h3 {
+    color: white;
+    margin-top: 15px;
+}
+
+.kart:hover {
+    color: white;
+}
+
+.markaKart{
+    width:350px;
+    margin:30px auto;
+    background:#1b1b1b;
+    padding:30px;
+    border-radius:18px;
+    transition:0.3s;
+    text-align:center;
+}
+
+.markaKart:hover{
+    transform:translateY(-8px);
+}
+
+.markaKart h2{
+    color:white;
+    margin-bottom:15px;
+}
+
+.markaKart p{
+    color:#cfcfcf;
+    margin-bottom:20px;
+}
+
+.markaKart button{
+    background:#2979ff;
+    color:white;
+    border:none;
+    padding:12px 25px;
+    border-radius:10px;
+    cursor:pointer;
+    font-size:16px;
+}
+    
+.markaKart button:hover{
+    background:#4285ff;
+}
+
+    body{
+        background:#111111;
+        color:white;
+        font-family:Arial;
+        text-align:center;
+    }
+
+    .urunKart{
+        width:320px;
+        margin:40px auto;
+        background:#1b1b1b;
+        padding:30px;
+        border-radius:18px;
+        transition:.3s;
+    }
+
+    .urunKart:hover{
+        transform:translateY(-8px);
+    }
+
+    button{
+        background:#2979ff;
+        color:white;
+        border:none;
+        padding:12px 28px;
+        border-radius:10px;
+        cursor:pointer;
+        font-size:16px;
+    }
+
+    button:hover{
+        background:#5393ff;
+    }
